@@ -1,0 +1,12 @@
+1. request lifecycle
+  Illuminate\Foundation\Http\Kernel
+  
+  load service container
+  service providers and execute 
+  middleware
+  application- our code
+  respose
+  
+ 2. service container
+ 3. service providers
+ 
