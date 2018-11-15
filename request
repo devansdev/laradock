@@ -1,1 +1,22 @@
+public/index.php
+bootstrap/app.php
 
+bootstrappers
+
+error handling, configure logging, detect the application environment, 
+and perform other tasks that need to be done before the request is actually handled
+
+kernal
+
+middleware
+
+HTTP session, determining if the application is in maintenance mode, verifying the CSRF token, and more
+
+Service Providers
+
+register
+boot
+
+database, queue, validation, and routing components
+
+Dispatch Request
