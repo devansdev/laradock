@@ -1,2 +1,27 @@
 mv .env.example .env
 php artisan key:generate
+
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=db
+DB_USERNAME=user
+DB_PASSWORD=pass
+
+CACHE_DRIVER=redis
+
+REDIS_HOST=localhost
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+REDIS_DATABASE=1
+
+
+MAIL_DRIVER=ses
+
+SES_KEY=XXXXXXXX
+SES_SECRET=XXXXXXXXXXXXXXXXXXXXX
+
+nginx 
+location / {
+    try_files $uri $uri/ /index.php?$query_string;
+}
